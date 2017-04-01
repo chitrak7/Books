@@ -1,6 +1,7 @@
-<div *ngFor="let book of books">
-<a ><h3>{{book.id}}</h3></a>
+<li *ngFor="let book of books" style="display: inline-block">
+<a [routerLink]="['/book', book.id]"><h3>{{book.title}}</h3></a>
 <h4>{{book.price}}</h4>
-<h4>{{book.author}}</h4>
+<h4>{{book.id}}</h4>
+<h4>{{book.author}}       </h4>
 <h4>{{book.category}}</h4>
-</div>
+</li>
