@@ -12,7 +12,14 @@
 # Commit History 
  	First commit: 
  		Added Quickstart 
+    Startd project
 	Second commit: 
 		Added the book preview component
+    Added the preview pane where all books can be seen
 	Third commit:
 		Added the bookservice
+    Easier to call books list or individual book
+  Fourth Commit:
+    Added Book detail component
+    Added routing
+    Now we can see all the books and check its detail with smooth routing
