@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { BookPreviewComponent } from "./book-preview.component";
 @Component({
   selector: 'my-app',
   moduleId: module.id,
