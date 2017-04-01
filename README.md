@@ -3,9 +3,9 @@
 # Owners:
   	Abhimanyu Gupta
   	Abhinav Anand
-	 Dhruv Gupta
-	 Chitrak Raj Gupta
-	 Jaya Aditya C
+	  Dhruv Gupta
+	  Chitrak Raj Gupta
+	  Jaya Aditya C
 
 # A portal for campus students to exchange books.
 
