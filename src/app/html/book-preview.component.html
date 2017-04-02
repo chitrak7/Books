@@ -1,3 +1,4 @@
+<h1>Welcome to Books.com</h1>
 <li *ngFor="let book of books" style="display: inline-block">
 <a [routerLink]="['/book', book.id]"><h3>{{book.title}}</h3></a>
 <h4>{{book.price}}</h4>
@@ -5,3 +6,5 @@
 <h4>{{book.author}}       </h4>
 <h4>{{book.category}}</h4>
 </li>
+<br>
+<button [routerLink] = "['/new-book']">New Book</button>

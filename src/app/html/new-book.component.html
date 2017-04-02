@@ -1,0 +1,19 @@
+<h1> Add Book</h1>
+<div style="display: inline;">
+  <label>Book Title:</label> <input #bookTitle /><br><br>
+  <label>Book Author:</label> <input #bookAuthor /><br><br>
+  <label>Book Description:</label> <input #bookDescription /><br><br>
+  <label>Book Price:</label> <input #bookPrice /><br><br>
+  <label>Book Category:</label> <input #bookCategory /><br><br>
+  <br><br>
+  <button (click)="add(bookTitle.value, bookAuthor.value, bookDescription.value, bookPrice.value, bookCategory.value)">
+    Add
+  </button>
+</div>
+<div *ngIf = "book">
+<h1>{{book.id}}</h1>
+<h4>{{book.price}}</h4>
+<h4>{{book.author}}       </h4>
+<h4>{{book.category}}</h4>
+<h4>{{book.description}}</h4>
+</div>

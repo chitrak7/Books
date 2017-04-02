@@ -10,6 +10,7 @@ import { BookPreviewComponent } from "./book-preview.component";
 import { BookDetailComponent } from "./book-detail.component";
 import { DNFComponent } from './dnf.component';
 import { BookService } from './book.service';
+import { NewBookComponent }from './new-book.component';
 import { AppRouting } from './app.routing';
 
 @NgModule({
@@ -24,7 +25,8 @@ import { AppRouting } from './app.routing';
   					AppComponent, 
   					BookPreviewComponent, 
   					BookDetailComponent, 
-  					DNFComponent 
+  					DNFComponent,
+  					NewBookComponent 
 				],
   providers: 	[
   					BookService
